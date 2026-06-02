@@ -1,0 +1,43 @@
+# GravesPro Settings
+
+grave:
+  enabled: true
+  block: PLAYER_HEAD
+  expiration-time: 3600 # 1 hour in seconds
+  store-xp: true
+  xp-percentage: 80
+  auto-remove-after-recovery: true
+  auto-remove-after-expiration: true
+
+protection:
+  owner-only: true
+  team-access: true
+  admin-bypass: true
+  pvp-protection: true
+  block-break-protection: true
+  explosion-protection: true
+
+hologram:
+  enabled: true
+  provider: INTERNAL # INTERNAL (Display Entities), DECENT_HOLOGRAMS, CMI
+  update-rate: 20 # ticks
+  lines:
+    - "<gradient:gold:yellow><bold>RIP</bold></gradient>"
+    - "<gray>Grave of <white><player_name>"
+    - "<gray>Expires in: <red><remaining_time>"
+    - "<yellow><italic>Click to recover items"
+
+models:
+  enabled: true
+  provider: VANILLA # VANILLA, ORAXEN, ITEM_ADDER, NEXO
+  custom-model-data: 0
+
+storage:
+  type: SQLITE # SQLITE, MYSQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: gravespro
+    username: root
+    password: ""
+    use-ssl: false

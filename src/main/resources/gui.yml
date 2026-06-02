@@ -1,0 +1,32 @@
+# GravesPro GUI Settings
+
+grave-view:
+  title: "<gold>Grave of <player_name>"
+  size: 54
+  items:
+    background:
+      material: BLACK_STAINED_GLASS_PANE
+      name: " "
+    info:
+      slot: 4
+      material: PLAYER_HEAD
+      name: "<gradient:gold:yellow><bold>Grave Information</bold></gradient>"
+      lore:
+        - "<gray>Owner: <white><player_name>"
+        - "<gray>Death Cause: <red><death_cause>"
+        - "<gray>Location: <white><x>, <y>, <z>"
+        - "<gray>Date: <white><date>"
+        - "<gray>Remaining: <white><remaining_time>"
+        - ""
+        - "<yellow>Protecting your items from thieves!"
+    recover-all:
+      slot: 49
+      material: CHEST_MINECART
+      name: "<green>Recover All Items"
+      lore:
+        - "<gray>Click to claim everything"
+
+history-view:
+  title: "<gold>Death History"
+  size: 45
+  # Pagination and other settings...

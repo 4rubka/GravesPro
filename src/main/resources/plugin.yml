@@ -1,0 +1,14 @@
+name: GravesPro
+version: ${project.version}
+main: me.gemini.gravespro.GravesPro
+api-version: '1.21'
+author: Gemini
+description: Advanced Grave System for Paper 1.21+
+softdepend: [PlaceholderAPI, DecentHolograms, CMI, Oraxen, ItemsAdder, Nexo]
+
+commands:
+  grave:
+    description: Main command for GravesPro
+    aliases: [graves, gp]
+    permission: gravespro.use
+

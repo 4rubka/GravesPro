@@ -1,0 +1,15 @@
+# GravesPro Messages (MiniMessage format)
+
+prefix: "<gold>GravesPro <dark_gray>| "
+
+no-permission: "<red>You don't have permission to do this."
+only-players: "<red>This command can only be used by players."
+reload-success: "<green>Successfully reloaded configurations."
+
+grave-created: "<green>Your grave has been created at <white><x>, <y>, <z> in <world>."
+grave-expired: "<red>Your grave at <white><x>, <y>, <z> has expired."
+grave-recovered: "<green>You have recovered your items from the grave."
+
+locate-no-graves: "<red>You don't have any active graves."
+locate-header: "<gold>Your Active Graves:"
+locate-format: "<gray>- <white><world> (<x>, <y>, <z>) <gray>| Expires in: <white><remaining_time>"
